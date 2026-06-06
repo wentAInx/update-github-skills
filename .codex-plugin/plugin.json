@@ -1,0 +1,38 @@
+{
+  "name": "update-github-skills",
+  "version": "0.1.0",
+  "description": "Audit, check, and safely update locally installed GitHub-sourced agent skills.",
+  "author": {
+    "name": "wentAInx",
+    "url": "https://github.com/wentAInx"
+  },
+  "homepage": "https://github.com/wentAInx/update-github-skills",
+  "repository": "https://github.com/wentAInx/update-github-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex-skill",
+    "claude-code-skill",
+    "agent-skill",
+    "github-skills",
+    "skills-updater"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Update GitHub Skills",
+    "shortDescription": "Check and update GitHub-sourced skills",
+    "longDescription": "Inventory locally installed agent skills, detect Git or manifest-backed GitHub sources, dry-run upstream changes, and update only after explicit confirmation with backups.",
+    "developerName": "wentAInx",
+    "category": "Productivity",
+    "capabilities": [
+      "Automation",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/wentAInx/update-github-skills",
+    "defaultPrompt": [
+      "Use $update-github-skills to check my local skills for GitHub updates.",
+      "Use $update-github-skills to inventory my Codex and Claude Code skills.",
+      "Use $update-github-skills to dry-run updates from my skill source manifest."
+    ],
+    "brandColor": "#2F6FEB"
+  }
+}
