@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update GitHub Skills"
+  short_description: "Check and update GitHub-sourced skills"
+  default_prompt: "Use $update-github-skills to check my locally installed Codex skills for GitHub updates."
